@@ -1,0 +1,11 @@
+/checkpoints/*
+!/checkpoints/.gitkeep
+eval/spice/lib/stanford-corenlp-3.6.0.jar
+eval/spice/lib/stanford-corenlp-3.6.0-models.jar
+.idea/*
+**/__pycache__/*
+**/tmp/*
+!/eval/spice/tmp/.gitkeep
+**/cache/*
+!/eval/spice/cache/.gitkeep
+.ipynb_checkpoints
