@@ -1,4 +1,4 @@
-# Image Captioning Kazakh model (based on ExpansioNet v2)
+## Image Captioning Kazakh model (based on [ExpansioNet v2](https://github.com/jchenghu/expansionnet_v2))
 
 #### Requirements
 * python >= 3.7
@@ -9,11 +9,10 @@
 * playsound
 * scipy
 
-#### Data preparation
+### Model checkpoint
 
-The checkpoint for the model is stored in [drive](https://drive.google.com/drive/folders/16PDZvoNs3P-O9Vr3zEb6bb-aaSDOiSY0?usp=sharing).
-Place the file into `checkpoints` directory.
+The checkpoint for the model is stored in [drive](https://drive.google.com/drive/folders/16PDZvoNs3P-O9Vr3zEb6bb-aaSDOiSY0?usp=sharing). Please, place the file into the `checkpoints` directory.
 
-## Acknowledgements
+### Acknowledgements
+The implementation of the model relies on <a>href="https://github.com/jchenghu/expansionnet_v2"</a>. We thank the original authors for their open-sourcing.
 
-* https://github.com/jchenghu/expansionnet_v2
