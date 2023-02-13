@@ -14,5 +14,5 @@
 The checkpoint for the model is stored in [drive](https://drive.google.com/drive/folders/16PDZvoNs3P-O9Vr3zEb6bb-aaSDOiSY0?usp=sharing). Please, place the file into the `checkpoints` directory.
 
 ### Acknowledgements
-The implementation of the model relies on <a>href="https://github.com/jchenghu/expansionnet_v2"</a>. We thank the original authors for their open-sourcing.
+The implementation of the model relies on https://github.com/jchenghu/expansionnet_v2. We thank the original authors for their open-sourcing.
 
