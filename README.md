@@ -16,3 +16,15 @@ The checkpoint for the model is stored in [drive](https://drive.google.com/drive
 ### Acknowledgements
 The implementation of the model relies on https://github.com/jchenghu/expansionnet_v2. We thank the original authors for their open-sourcing.
 
+### BibTex
+```
+@article{Arystanbekov2023,
+author = "Batyr Arystanbekov and Askat Kuzdeuov and Shakhizat Nurgaliyev and Hüseyin Atakan Varol",
+title = "{Image Captioning for the Visually Impaired and Blind: A Recipe for Low-Resource Languages}",
+year = "2023",
+month = "2",
+url = "https://www.techrxiv.org/articles/preprint/Image_Captioning_for_the_Visually_Impaired_and_Blind_A_Recipe_for_Low-Resource_Languages/22133894",
+doi = "10.36227/techrxiv.22133894.v1"
+}
+```
+
