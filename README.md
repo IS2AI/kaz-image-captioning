@@ -16,6 +16,9 @@ The checkpoint for the model is stored in [drive](https://drive.google.com/drive
 ### Acknowledgements
 The implementation of the model relies on https://github.com/jchenghu/expansionnet_v2. We thank the original authors for their open-sourcing.
 
+### Preprint on TechRxiv
+[Image Captioning for the Visually Impaired and Blind: A Recipe for Low-Resource Languages](https://www.techrxiv.org/articles/preprint/Image_Captioning_for_the_Visually_Impaired_and_Blind_A_Recipe_for_Low-Resource_Languages/22133894)
+
 ### BibTex
 ```
 @article{Arystanbekov2023,
