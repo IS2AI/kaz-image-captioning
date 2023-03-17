@@ -13,6 +13,34 @@
 
 The checkpoint for the model is stored in [drive](https://drive.google.com/drive/folders/16PDZvoNs3P-O9Vr3zEb6bb-aaSDOiSY0?usp=sharing). Please, place the file into the `checkpoints` directory.
 
+### Inference acceleration with NVIDIA's TensorRT deep learning library
+* Convert Pytorch model to onnx using this [script](https://github.com/jchenghu/ExpansionNet_v2/blob/master/onnx4tensorrt/convert2onnx.py).
+* Convert onnx to TensorRT format. The onnx model file can be converted to a TensorRT egnine using the trtexec tool.
+```
+trtexec --onnx=./model.onnx --saveEngine=./model_fp32.engine --workspace=200
+
+```
+* Inference using TensorRT engine
+```
+python3 infer_trt.py
+```
+
+
+### Benchmark
+
+| № image       | Pytorch model(model size:2.7GB) |  TensorRT(FP32, model size: 986MB) |
+| ------------- | -------------------------------- |-----------------------------------|
+| 1             | 2.56                             |  0.53
+| 2             | 1.14                             |  0.48
+| 3             | 1.16                             |  0.47
+| 4             | 1.12                             |  0.49
+| 5             | 1.17                             |  0.46
+| 6             | 1.21                             |  0.48
+| 7             | 1.35                             |  0.5
+| 8             | 1.5                              |  0.5
+| 9             | 1.12                             |  0.46
+| 10            | 1.1                              |  0.5
+
 ### Acknowledgements
 The implementation of the model relies on https://github.com/jchenghu/expansionnet_v2. We thank the original authors for their open-sourcing.
 
