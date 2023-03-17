@@ -26,9 +26,9 @@ python3 infer_trt.py
 ```
 
 
-### Benchmark
+### Inference time (sec) @384x384 pixel images: Pytorch (.pth) vs. TensorRT (.engine)
 
-| № image       | Pytorch model(model size:2.7GB) |  TensorRT(FP32, model size: 986MB) |
+| № image       | Pytorch model (model size:2.7GB) |  TensorRT (FP32, model size: 986MB) |
 | ------------- | -------------------------------- |-----------------------------------|
 | 1             | 2.56                             |  0.53
 | 2             | 1.14                             |  0.48
